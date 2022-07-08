@@ -1,0 +1,30 @@
+body {
+    font-family: 'Atma', cursive;
+    max-width: 700px;
+    max-height: 100%;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+    margin: 260px auto;
+}
+
+.weather-app{
+    padding: 40px;
+    background: linear-gradient(109.6deg, rgb(245, 239, 249) 30.1%, rgb(207, 211, 236) 100.2%);
+}
+
+.city-description{
+    display: inline-flex;
+}
+
+ul {
+    display: flex;
+    justify-content: space-evenly;
+    padding: 16px;
+    margin: 12px;
+}
+li {
+    font-size: 28px;
+    font-weight: 100;
+    list-style: none;
+}

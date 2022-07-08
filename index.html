@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-0evHe/X+R7YkIZDRvuzKMRqM+OrBnVFBL6DOitfPri4tjfHxaWutUpFmBp4vmVor"
+      crossorigin="anonymous"
+    />
+    <link rel="stylesheet" href="src/styles.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Atma:wght@300;400;500&display=swap"
+      rel="stylesheet"
+    />
+    <script src="https://unpkg.com/axios/dist/axios.min.js"></script>
+    <title>Weather App</title>
+  </head>
+  <body background="sky.jpg">
+    <div class="weather-app">
+      <div class="city-description">
+        <div class="square-information">
+          <h1 id="city"></h1>
+          <h2>
+            <span class="temperature" id="temperature"> </span>
+            <a href="#" id="celsius-link">℃</a>
+            <a href="#" id="fahrenheit-link"></a>
+          </h2>
+          <h3><span id="description"> </span></h3>
+          <div class="notion-string">
+            <span id="current-day"> </span>
+            <span class="current-humidity" id="humidity"></span>
+            <span class="curren-wind" id="wind"></span>
+            <div class="row align-items-end">
+              <div class="col">
+                <form class="row align-items-end" id="search-form">
+                  <input
+                    type="search"
+                    placeholder="Enter a city"
+                    autofocus="on"
+                    autocomplete="off"
+                    id="city-input"
+                    class="form-control shadow-sm"
+                  />
+                </form>
+              </div>
+              <div class="col-3">
+                <button type="button" class="btn btn-outline-primary shadow">
+                  Search
+                </button>
+              </div>
+              <div class="col-3">
+                <button
+                  type="button"
+                  class="btn btn-outline-success shadow"
+                  id="location-button"
+                >
+                  Current
+                </button>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <ul>
+        <li class="days-of-the-week">
+          Thursday
+          <p>🌦️</p>
+        </li>
+        <li class="days-of-the-week">
+          Friday
+          <p>⛈️</p>
+        </li>
+        <li class="days-of-the-week">
+          Saturday
+          <p>☀️</p>
+        </li>
+        <li class="days-of-the-week">
+          Sunday
+          <p>🌥️</p>
+        </li>
+        <li class="days-of-the-week">
+          Monday
+          <p>🌧️</p>
+        </li>
+      </ul>
+    </div>
+    <script src="src/script.js"></script>
+  </body>
+</html>
