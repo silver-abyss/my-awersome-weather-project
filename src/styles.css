@@ -1,5 +1,6 @@
 body {
     font-family: 'Atma', cursive;
+    color: #6A5495;
     max-width: 700px;
     max-height: 100%;
     background-repeat: no-repeat;
@@ -9,13 +10,46 @@ body {
 }
 
 .container{
-    padding: 40px;
-    background: linear-gradient(109.6deg, rgb(245, 239, 249) 30.1%, rgb(207, 211, 236) 100.2%);
-box-shadow: 8px 8px 26px rgb(32 32 32 / 57%);}
+    padding: 30px;
+    background: linear-gradient(180deg, rgb(246, 198, 234) 0%, rgb(200, 182, 226) 100%);
+    box-shadow: 8px 8px 26px rgb(32 32 32 / 57%);
+}
 
 .city-description{
     display: inline-flex;
 }
+
+#current-day {
+    color: #7858A6;
+    font-weight: bold;
+    margin-bottom: 10px;
+}
+
+#icon {
+position: relative;
+left: -90px;
+bottom: 100px;
+width: 130px;
+}
+
+.notion-string{
+    margin: -40px 0;
+}
+
+.btn
+{
+    color: #FFFFFF;
+    background-color: #C689C6;
+    border: #6A5495;
+}
+
+.btn:hover,
+.btn:active,
+.btn:visited,
+.btn:focus {
+    color: #9A86A4;
+    background-color: #F6C6EA ;
+    }
 
 ul {
     display: flex;
@@ -39,6 +73,7 @@ a {
     text-decoration: none;
 }
 a:hover{
-    color: #C8B6E2;
+    color: #C65D7B;
+    font-size: larger;
 }
 
