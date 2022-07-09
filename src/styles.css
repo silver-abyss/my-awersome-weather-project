@@ -77,8 +77,8 @@ a:hover{
     font-size: larger;
 }
 
-@media screen and (max-width: 600px) {
+/* @media screen and (max-width: 600px) {
     body {
         display: inline-block;
     }
-}
+} */
