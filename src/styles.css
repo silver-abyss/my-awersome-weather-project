@@ -28,3 +28,7 @@ li {
     font-weight: 100;
     list-style: none;
 }
+small {
+    display: block;
+    text-align: center;
+}
