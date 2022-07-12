@@ -26,14 +26,31 @@ body {
 }
 
 #icon {
-position: relative;
-left: -90px;
-bottom: 100px;
-width: 130px;
+    position: relative;
+    left: -90px;
+    bottom: 100px;
+    width: 130px;
 }
 
 .notion-string{
     margin: -40px 0;
+}
+
+.active {
+    color: #6A5495;
+    text-decoration: none;
+    cursor: default;
+}
+
+.active:hover{
+    color: #1F4690;
+    text-decoration: none;
+    cursor: default;
+}
+
+a {
+    text-decoration: none;
+    color: #A8A4CE;
 }
 
 .btn
@@ -68,12 +85,12 @@ small {
     color: #F7F5F2;
 }
 
-a {
+.footer-link {
     color: #F7F5F2;
     text-decoration: none;
 }
-a:hover{
-    color: #C65D7B;
+.footer-link:hover{
+    color: #1F4690;
     font-size: larger;
 }
 
