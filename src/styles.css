@@ -68,17 +68,18 @@ a {
     background-color: #F6C6EA ;
     }
 
-ul {
-    display: flex;
-    justify-content: space-evenly;
-    padding: 16px;
-    margin: 12px;
-}
-li {
-    font-size: 28px;
-    font-weight: 100;
-    list-style: none;
-}
+/* ul {
+        display: flex;
+        justify-content: space-evenly;
+        padding: 16px;
+        margin: 12px;
+    }
+        li {
+            font-size: 28px;
+            font-weight: 100;
+            list-style: none;
+        } */
+
 small {
     display: block;
     text-align: center;
