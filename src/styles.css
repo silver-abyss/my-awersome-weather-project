@@ -113,8 +113,15 @@ small {
     opacity: 0.7;
 }
 
-@media screen and (max-width: 600px) {
-    body {
+@media screen and (max-width: 450px) {
+    #icon {
+        display: none;
+        }
+    .notion-string {
+        display: none;
+        }
+
+.square-information {
         display: block;
     }
 } 
