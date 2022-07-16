@@ -121,7 +121,14 @@ small {
         display: none;
         }
 
-.square-information {
+    .square-information {
         display: block;
+        }
+    .col, .col:hover {
+        font-size: smaller;
+        display: flex;
+        align-content: center;
+        margin: 0 auto;
+        font-weight: 100;
     }
-} 
+}   
