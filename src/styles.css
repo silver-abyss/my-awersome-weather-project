@@ -80,9 +80,11 @@ a{
 }
 
 .col:hover {
+    color: #6A5495;
     background-color: #F6C6EA;
     font-family: 'Unna', bold;
     font-weight: 700;
+    opacity: 0.6;
 }
 
 small {
