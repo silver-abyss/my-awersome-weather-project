@@ -131,4 +131,7 @@ small {
         margin: 0 auto;
         font-weight: 100;
     }
+    img {
+        width: min-content;
+    }
 }   
